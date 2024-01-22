@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0x;
+}
+
+body {
+  background: url("https://wallpaperaccess.com/full/806427.jpg");
+  background-repeat: no-repeat;
+  height: 95vh;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  background-color: white;
+  width: 30%;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.heading {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#quote {
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+.head input {
+  height: 40px;
+  margin-top: 20px;
+  width: 90px;
+  letter-spacing: 2px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: larger;
+  border: solid 2px black;
+  padding: 10px;
+  border-radius: 10px;
+}
